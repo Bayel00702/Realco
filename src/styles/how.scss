@@ -1,0 +1,70 @@
+.how{
+  padding: 67px 0 128px;
+
+  &__logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &-text{
+      font-weight: 400;
+      font-size: 18px;
+      color: #2A2C1F;
+    }
+
+    &-right{
+      display: flex;
+      align-items: center;
+      column-gap: 32px;
+    }
+  }
+
+  &__title{
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color: #2A2C1F;
+    margin:120px 0 20px;
+  }
+  &__text{
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #65665C;
+
+  }
+
+  &__row{
+    display: flex;
+    column-gap: 32px;
+    justify-content: center;
+    margin-top: 61px;
+  }
+
+  &__card{
+    display: flex;
+    flex-direction: column;
+    padding: 49px 33px 47px;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #E7E8E3;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+    &-img{
+      height: 48px;
+    }
+
+    &-title{
+      font-weight: 700;
+      font-size: 24px;
+      color: #2A2C1F;
+      margin: 24px  0 17px;
+    }
+    &-text{
+      font-weight: 400;
+      font-size: 16px;
+      color: #65665C;
+      display: none;
+    }
+  }
+}

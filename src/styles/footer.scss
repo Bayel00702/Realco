@@ -1,0 +1,21 @@
+.footer{
+  padding: 25px 0;
+  background: #F5F5F2;
+
+  &__row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__text{
+    font-weight: 400;
+    font-size: 14px;
+    color: #65665C;
+  }
+  &__icons{
+    display: flex;
+    align-items: center;
+    column-gap: 22px
+  ;
+  }
+}

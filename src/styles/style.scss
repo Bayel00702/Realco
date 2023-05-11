@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Montserrat+Alternates:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Raleway:wght@200;300;700&family=Roboto:wght@400;700&family=Rubik+Mono+One&family=Rubik:wght@600&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1310px;
+  margin: 0 auto;
+}
+
+button{
+  cursor: pointer;
+}
+
+
+@import "header";
+@import "find";
+@import "how";
+@import "best";
+@import "house";
+@import "location";
+@import "costumers";
+@import "latest";
+@import "realco";
+@import "footer";

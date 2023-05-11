@@ -1,0 +1,75 @@
+.realco{
+  padding: 64px 0 72px;
+  &__row{
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  &__page{
+    display: flex;
+    column-gap: 112px;
+  }
+  &__list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+  }
+  &__item{
+    font-weight: 400;
+    font-size: 14px;
+    color: #2A2C1F;
+  }
+  &__itemFirst{
+    font-weight: 400;
+    font-size: 16px;
+    color: #2A2C1F;
+  }
+
+  &__form{
+    &-title{
+      font-weight: 400;
+      font-size: 16px;
+      color: #2A2C1F;
+    }
+    &-text{
+      font-weight: 400;
+      font-size: 16px;
+      color: #65665C;
+      margin: 10px 0 15px;
+    }
+
+    &-label{
+      display: flex;
+      align-items: center;
+      column-gap: 16px;
+      margin-bottom: 16px;
+    }
+
+    &-input{
+      font-weight: 400;
+      font-size: 20px;
+      color: #65665C;
+      background: #FFFFFF;
+      border: 1px solid #E7E8E3;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+      border-radius: 6px;
+      padding: 12px 14px;
+    }
+    &-btn{
+      padding: 11px 21px;
+      background: #CF6F49;
+      border: 1px solid #CF6F49;
+      border-radius: 6px;
+      font-weight: 400;
+      font-size: 16px;
+      color: #FFFFFF;
+    }
+    &-subtitle{
+      font-weight: 400;
+      font-size: 12px;
+      color: #65665C;
+    }
+  }
+
+}
